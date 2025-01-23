@@ -5,10 +5,10 @@
 > library(plotly)
 > ##3D Surface Plot
 > plot_ly(z=volcano, type="surface")
-(go to proj.html)
+(rmark.html)
 > 
 > ## creating Boxplot
 > 
 > p <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
 > p
-(go to proj1.html)
+(r mark2.html)
