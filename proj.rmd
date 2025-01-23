@@ -1,0 +1,12 @@
+## Date Created:
+date()
+
+## load plotly
+library(plotly)
+
+##3D Surface Plot
+plot_ly(z=volcano, type="surface")
+
+##Boxplot
+p <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
+p
